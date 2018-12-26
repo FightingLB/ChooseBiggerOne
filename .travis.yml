@@ -1,5 +1,5 @@
 language: swift
 script:
-  - xcodebuild -project ChooseBiggerOne.xcodeproj -scheme ChooseBiggerOne -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO clean build test
+  - xcodebuild -project ChooseBiggerOne.xcodeproj -scheme ChooseBiggerOne -sdk iphoneos ONLY_ACTIVE_ARCH=NO clean build test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
