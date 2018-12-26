@@ -15,11 +15,25 @@ class ChooseBiggerOneSpec: QuickSpec {
   override func spec() {
     describe("ChooseBiggerOne Test") {
       
-      context("") {
+      context("SquareShapeFactory") {
+        let factory = SquareShapeFactory(minProportion: 0, maxProportion: 1)
+        let shapes = factory.createShapes()
         
+        it("should create square shapes") {
+          expect(shapes.0 is SquareShape).to(beTrue())
+          expect(shapes.1 is SquareShape).to(beTrue())
+        }
       }
       
-      
+      context("CircleShapeFactory") {
+        let factory = CircleShapeFactory(minProportion: 0, maxProportion: 1)
+        let shapes = factory.createShapes()
+        
+        it("should create circle shapes") {
+          expect(shapes.0 is CircleShape).to(beTrue())
+          expect(shapes.1 is CircleShape).to(beTrue())
+        }
+      }
     }
   }
 
