@@ -3,4 +3,4 @@ language: swift
 script:
   - xcodebuild -project ChooseBiggerOne.xcodeproj -scheme ChooseBiggerOne -sdk iphoneos ONLY_ACTIVE_ARCH=NO clean build test CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash) -J 'ChooseBiggerOne'
