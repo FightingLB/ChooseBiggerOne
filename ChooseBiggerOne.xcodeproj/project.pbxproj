@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		12D86AF6E2D2131FAE2D52E5 /* Pods_ChooseBiggerOneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F04B2E59BD5CC815078A9B0 /* Pods_ChooseBiggerOneTests.framework */; };
-		5DFECF74EA2B69DC1BF0B639 /* Pods_ChooseBiggerOneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BB9FC859EC0A6CE4C7CDAA /* Pods_ChooseBiggerOneUITests.framework */; };
 		C41A9580217D7D9500B587A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A957F217D7D9500B587A6 /* AppDelegate.swift */; };
 		C41A9582217D7D9500B587A6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A9581217D7D9500B587A6 /* GameViewController.swift */; };
 		C41A9585217D7D9500B587A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41A9583217D7D9500B587A6 /* Main.storyboard */; };
 		C41A9587217D7D9700B587A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41A9586217D7D9700B587A6 /* Assets.xcassets */; };
 		C41A958A217D7D9700B587A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41A9588217D7D9700B587A6 /* LaunchScreen.storyboard */; };
-		C41A9595217D7D9700B587A6 /* ChooseBiggerOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A9594217D7D9700B587A6 /* ChooseBiggerOneTests.swift */; };
-		C41A95A0217D7D9700B587A6 /* ChooseBiggerOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A959F217D7D9700B587A6 /* ChooseBiggerOneUITests.swift */; };
+		C41A9595217D7D9700B587A6 /* ChooseBiggerOneSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A9594217D7D9700B587A6 /* ChooseBiggerOneSpec.swift */; };
 		C41A95AE217D7DD900B587A6 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A95AD217D7DD900B587A6 /* Shape.swift */; };
 		C41A95B0217D7F1E00B587A6 /* ShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A95AF217D7F1E00B587A6 /* ShapeFactory.swift */; };
 		C41A95B2217D82E200B587A6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A95B1217D82E200B587A6 /* Utils.swift */; };
@@ -32,13 +30,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		C41A9591217D7D9700B587A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C41A9574217D7D9500B587A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C41A957B217D7D9500B587A6;
-			remoteInfo = ChooseBiggerOne;
-		};
-		C41A959C217D7D9700B587A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C41A9574217D7D9500B587A6 /* Project object */;
 			proxyType = 1;
@@ -63,11 +54,8 @@
 		C41A9589217D7D9700B587A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C41A958B217D7D9700B587A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C41A9590217D7D9700B587A6 /* ChooseBiggerOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChooseBiggerOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C41A9594217D7D9700B587A6 /* ChooseBiggerOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseBiggerOneTests.swift; sourceTree = "<group>"; };
+		C41A9594217D7D9700B587A6 /* ChooseBiggerOneSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseBiggerOneSpec.swift; sourceTree = "<group>"; };
 		C41A9596217D7D9700B587A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C41A959B217D7D9700B587A6 /* ChooseBiggerOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChooseBiggerOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C41A959F217D7D9700B587A6 /* ChooseBiggerOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseBiggerOneUITests.swift; sourceTree = "<group>"; };
-		C41A95A1217D7D9700B587A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C41A95AD217D7DD900B587A6 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		C41A95AF217D7F1E00B587A6 /* ShapeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeFactory.swift; sourceTree = "<group>"; };
 		C41A95B1217D82E200B587A6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -100,14 +88,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C41A9598217D7D9700B587A6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5DFECF74EA2B69DC1BF0B639 /* Pods_ChooseBiggerOneUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -129,7 +109,6 @@
 			children = (
 				C41A957E217D7D9500B587A6 /* ChooseBiggerOne */,
 				C41A9593217D7D9700B587A6 /* ChooseBiggerOneTests */,
-				C41A959E217D7D9700B587A6 /* ChooseBiggerOneUITests */,
 				C41A957D217D7D9500B587A6 /* Products */,
 				0AA189B58D9B2F05C3782881 /* Pods */,
 				F3B1F0315692174694F7BC24 /* Frameworks */,
@@ -141,7 +120,6 @@
 			children = (
 				C41A957C217D7D9500B587A6 /* ChooseBiggerOne.app */,
 				C41A9590217D7D9700B587A6 /* ChooseBiggerOneTests.xctest */,
-				C41A959B217D7D9700B587A6 /* ChooseBiggerOneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,19 +151,10 @@
 		C41A9593217D7D9700B587A6 /* ChooseBiggerOneTests */ = {
 			isa = PBXGroup;
 			children = (
-				C41A9594217D7D9700B587A6 /* ChooseBiggerOneTests.swift */,
+				C41A9594217D7D9700B587A6 /* ChooseBiggerOneSpec.swift */,
 				C41A9596217D7D9700B587A6 /* Info.plist */,
 			);
 			path = ChooseBiggerOneTests;
-			sourceTree = "<group>";
-		};
-		C41A959E217D7D9700B587A6 /* ChooseBiggerOneUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C41A959F217D7D9700B587A6 /* ChooseBiggerOneUITests.swift */,
-				C41A95A1217D7D9700B587A6 /* Info.plist */,
-			);
-			path = ChooseBiggerOneUITests;
 			sourceTree = "<group>";
 		};
 		F3B1F0315692174694F7BC24 /* Frameworks */ = {
@@ -239,25 +208,6 @@
 			productReference = C41A9590217D7D9700B587A6 /* ChooseBiggerOneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C41A959A217D7D9700B587A6 /* ChooseBiggerOneUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C41A95AA217D7D9700B587A6 /* Build configuration list for PBXNativeTarget "ChooseBiggerOneUITests" */;
-			buildPhases = (
-				B3583D66D1193F00DE15F0C4 /* [CP] Check Pods Manifest.lock */,
-				C41A9597217D7D9700B587A6 /* Sources */,
-				C41A9598217D7D9700B587A6 /* Frameworks */,
-				C41A9599217D7D9700B587A6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C41A959D217D7D9700B587A6 /* PBXTargetDependency */,
-			);
-			name = ChooseBiggerOneUITests;
-			productName = ChooseBiggerOneUITests;
-			productReference = C41A959B217D7D9700B587A6 /* ChooseBiggerOneUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -272,10 +222,6 @@
 						CreatedOnToolsVersion = 10.0;
 					};
 					C41A958F217D7D9700B587A6 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = C41A957B217D7D9500B587A6;
-					};
-					C41A959A217D7D9700B587A6 = {
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = C41A957B217D7D9500B587A6;
 					};
@@ -296,7 +242,6 @@
 			targets = (
 				C41A957B217D7D9500B587A6 /* ChooseBiggerOne */,
 				C41A958F217D7D9700B587A6 /* ChooseBiggerOneTests */,
-				C41A959A217D7D9700B587A6 /* ChooseBiggerOneUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -313,13 +258,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C41A958E217D7D9700B587A6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C41A9599217D7D9700B587A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,28 +335,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B3583D66D1193F00DE15F0C4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ChooseBiggerOneUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -446,15 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C41A9595217D7D9700B587A6 /* ChooseBiggerOneTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C41A9597217D7D9700B587A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C41A95A0217D7D9700B587A6 /* ChooseBiggerOneUITests.swift in Sources */,
+				C41A9595217D7D9700B587A6 /* ChooseBiggerOneSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,11 +373,6 @@
 			isa = PBXTargetDependency;
 			target = C41A957B217D7D9500B587A6 /* ChooseBiggerOne */;
 			targetProxy = C41A9591217D7D9700B587A6 /* PBXContainerItemProxy */;
-		};
-		C41A959D217D7D9700B587A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C41A957B217D7D9500B587A6 /* ChooseBiggerOne */;
-			targetProxy = C41A959C217D7D9700B587A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -691,48 +594,6 @@
 			};
 			name = Release;
 		};
-		C41A95AB217D7D9700B587A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7113C5689125861DE657039 /* Pods-ChooseBiggerOneUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7H6SQX4AB3;
-				INFOPLIST_FILE = ChooseBiggerOneUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fightinglb0521.ChooseBiggerOneUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ChooseBiggerOne;
-			};
-			name = Debug;
-		};
-		C41A95AC217D7D9700B587A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD0501BD10BF44001A901B67 /* Pods-ChooseBiggerOneUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7H6SQX4AB3;
-				INFOPLIST_FILE = ChooseBiggerOneUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fightinglb0521.ChooseBiggerOneUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ChooseBiggerOne;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -759,15 +620,6 @@
 			buildConfigurations = (
 				C41A95A8217D7D9700B587A6 /* Debug */,
 				C41A95A9217D7D9700B587A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C41A95AA217D7D9700B587A6 /* Build configuration list for PBXNativeTarget "ChooseBiggerOneUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C41A95AB217D7D9700B587A6 /* Debug */,
-				C41A95AC217D7D9700B587A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
